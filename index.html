@@ -244,32 +244,33 @@
             </div>
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <form>
+                    <form action="contact.php" method="post" autocomplete="off">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <input class="form-control" placeholder="Your name" type="Your name">
+                                <input class="form-control" placeholder="Numele tău" name="nume" id="nume" type="text">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
-                                <input class="form-control" placeholder="Phone" type="Phone">
+                                <input class="form-control" placeholder="Telefon" name="telefon" id="telefon" type="Phone">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
-                                <input class="form-control" placeholder="Email" type="Email">
+                                <input class="form-control" placeholder="Email" name="email" id="email" type="email">
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
-                                <input class="form-control" placeholder="Select Coach" type="Select Coach">
+                                <input class="form-control" placeholder="Antrenor" name="antrenor" id="antrenor" type="Select Coach">
                             </div>
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
-                                <textarea class="textarea" placeholder="Message">Message</textarea>
+                                <textarea class="textarea" placeholder="Mesaj" name="mesaj" id="mesaj"></textarea>
                             </div>
                         </div>
+                        <button class="send-btn">Trimite un mesaj</button>
                     </form>
                 </div>
 
-                <button class="send-btn">Make an Appointment</button>
+                
             </div>
         </div>
     </div>
@@ -317,11 +318,7 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <div class="container">
-                <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
-            </div>
-        </div>
+        
     </footer>
     <!-- end footer -->
     <!-- Javascript files-->
