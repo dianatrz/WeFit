@@ -930,9 +930,9 @@
      display: inline-block;
      vertical-align: middle;
 }
- .main-menu ul>li:nth-child (6) {
+ /*.main-menu ul>li:nth-child (6) {
      padding-right: 0px;
-}
+}*/
  .nav>li {
      position: inherit;
      display: inline-block;
@@ -1471,8 +1471,8 @@
      float: left;
 }
  .Coach .tow-box p {
-    font-size: 27px;
-     line-height: 34px;
+    font-size: 18px;
+     line-height: 25px;
      color: #151108;
 }
  .Coach .read-more {
