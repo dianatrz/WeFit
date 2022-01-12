@@ -21,7 +21,7 @@ Autori
  <h2>
  Configurare
  </h2>
- Repository-ul trebuie descărcat local în folderul 'www' dacă utilizați WAMP sau în 'http' dacă utilizați XAMPP pentru a putea stoca datele din formularul de contact într-o bază de date. <br>
+ Repository-ul trebuie descărcat local în folderul 'www' dacă utilizați WAMP sau în 'htdocs' dacă utilizați XAMPP pentru a putea stoca datele din formularul de contact într-o bază de date. <br>
  Unicul fișier .sql intitulat wefit.sql trebuie importat în programul dvs pentru baze de date.
  <h2>
  Rulare
